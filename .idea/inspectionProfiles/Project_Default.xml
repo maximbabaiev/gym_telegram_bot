@@ -1,0 +1,68 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="DuplicatedCode" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <Languages>
+        <language minSize="263" name="Python" />
+      </Languages>
+    </inspection_tool>
+    <inspection_tool class="HtmlUnknownTag" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="11">
+            <item index="0" class="java.lang.String" itemvalue="nobr" />
+            <item index="1" class="java.lang.String" itemvalue="noembed" />
+            <item index="2" class="java.lang.String" itemvalue="comment" />
+            <item index="3" class="java.lang.String" itemvalue="noscript" />
+            <item index="4" class="java.lang.String" itemvalue="embed" />
+            <item index="5" class="java.lang.String" itemvalue="script" />
+            <item index="6" class="java.lang.String" itemvalue="input" />
+            <item index="7" class="java.lang.String" itemvalue="select" />
+            <item index="8" class="java.lang.String" itemvalue="label" />
+            <item index="9" class="java.lang.String" itemvalue="img" />
+            <item index="10" class="java.lang.String" itemvalue="h3" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="W605" />
+          <option value="E713" />
+          <option value="E303" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N802" />
+          <option value="N803" />
+          <option value="N806" />
+          <option value="N801" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="pymysql.cursors" />
+          <option value="Lesson_9_DB_image.models.Product.objects" />
+          <option value="django.db.models.fields.files.ImageField.read" />
+          <option value="Lesson_12_Models_writers.models.Book.object" />
+          <option value="Lesson_12_Models_writers.models.Book.objects" />
+          <option value="Lesson_13_Model_CSV.models.GameModel.objects" />
+          <option value="Lesson_12_Models_writers.models.Categorie.objects" />
+          <option value="Lesson_13_Model_JSON.models.Hockeyteam.objects" />
+          <option value="first.models.Categorie.objects" />
+          <option value="first.models.Order.objects" />
+          <option value="first.models.ProductModel.objects" />
+          <option value="first.models.User.objects" />
+          <option value="first.models.User.DoesNotExist" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
